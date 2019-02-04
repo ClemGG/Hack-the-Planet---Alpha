@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Semaine 1.unity
+    guid: c9bfe35bde5936145a5e424a2d2f7a16
+  - enabled: 0
+    path: "Assets/Scenes/test de passage \xE0 la semaine suivante.unity"
+    guid: a55ef31897b9e0f45b747e429c2c6102
+  - enabled: 1
+    path: Assets/Scenes/Semaine 2.unity
+    guid: fa1a97bf96c00b84e9aba357f45f6862
+  - enabled: 1
+    path: Assets/Scenes/Semaine 3.unity
+    guid: f1f37e394ee22564bac0a4dba99ee535
+  - enabled: 1
+    path: Assets/Scenes/Semaine 4.unity
+    guid: ee764c9d3de8177459ee61eb914a01b9
+  - enabled: 1
+    path: Assets/Scenes/Semaine 5.unity
+    guid: eec09de3af42b9e418e212e90ee11519
+  - enabled: 1
+    path: Assets/Scenes/SceneDeFin.unity
+    guid: dd45586e08edb98489348eb45e43752d
+  m_configObjects: {}
