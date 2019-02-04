@@ -1,0 +1,207 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6445904131454932952
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4549509882083439621}
+  - component: {fileID: 6712001851427399860}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4549509882083439621
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6445904131454932952}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6712001851427399860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6445904131454932952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 886c03233d140434bbb95a5a2f2e1ba8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: ActionPointAquired
+    clip: {fileID: 8300000, guid: 7f2c038f53c32c54996089cac995b1b0, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isBGMusic: 0
+    source: {fileID: 0}
+  - name: Annulation
+    clip: {fileID: 8300000, guid: cd1cc0953931fe348826533c39a7d46d, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isBGMusic: 0
+    source: {fileID: 0}
+  - name: Attentat1
+    clip: {fileID: 8300000, guid: dbc8c70f793268b46b9a60643b7c4d25, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isBGMusic: 0
+    source: {fileID: 0}
+  - name: Computer_ShutDown
+    clip: {fileID: 8300000, guid: 2d73a6ee3da1f204eacd8d0082a75817, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isBGMusic: 0
+    source: {fileID: 0}
+  - name: Computer_StartUp
+    clip: {fileID: 8300000, guid: fa7f515878da9194586921390ae331b1, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isBGMusic: 0
+    source: {fileID: 0}
+  - name: CreepSound1
+    clip: {fileID: 8300000, guid: 200ed4794b1744f4c9441f29c9547760, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isBGMusic: 0
+    source: {fileID: 0}
+  - name: CreepSound2
+    clip: {fileID: 8300000, guid: e60cb7812b9a1e5478b11ed2c586abd1, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isBGMusic: 0
+    source: {fileID: 0}
+  - name: CreepSound3
+    clip: {fileID: 8300000, guid: 55db89d0c8209fd4da750551d703ba53, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isBGMusic: 0
+    source: {fileID: 0}
+  - name: CreepSound4
+    clip: {fileID: 8300000, guid: 670308f89fecc964cbb4242537e8f433, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isBGMusic: 0
+    source: {fileID: 0}
+  - name: CreepSound5
+    clip: {fileID: 8300000, guid: 6c9858d721c00a74fbe25a62f68384c9, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isBGMusic: 0
+    source: {fileID: 0}
+  - name: CreepSound6
+    clip: {fileID: 8300000, guid: 54fbe9e980deee446a6ac93f4126bbc9, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isBGMusic: 0
+    source: {fileID: 0}
+  - name: DocumentOpening
+    clip: {fileID: 8300000, guid: e8e9ddaa6943023498f118ca8292dc09, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isBGMusic: 0
+    source: {fileID: 0}
+  - name: Error
+    clip: {fileID: 8300000, guid: 6d354c0a13bc84c498b0702aaa01e50a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isBGMusic: 0
+    source: {fileID: 0}
+  - name: Loading
+    clip: {fileID: 8300000, guid: fe3c9dc2bbfd0d04799b355c77a02e1e, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    isBGMusic: 0
+    source: {fileID: 0}
+  - name: MoneyCollected
+    clip: {fileID: 8300000, guid: a552bd0e770b77746a1c406a36e9786a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isBGMusic: 0
+    source: {fileID: 0}
+  - name: Selection
+    clip: {fileID: 8300000, guid: 44791a4b3e6899d42981d69a89aae388, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isBGMusic: 0
+    source: {fileID: 0}
+  - name: Validation
+    clip: {fileID: 8300000, guid: b623252f9977c274fa97915cb1786e7a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    isBGMusic: 0
+    source: {fileID: 0}
+  - name: Week1_Ambiance
+    clip: {fileID: 8300000, guid: dbc46ea833492ff479adbbe7d46cb8bc, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 1
+    isBGMusic: 1
+    source: {fileID: 0}
+  - name: Week2_Ambiance
+    clip: {fileID: 8300000, guid: bb54ce0e0c1d4b140a1de482b7855085, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    isBGMusic: 1
+    source: {fileID: 0}
+  - name: Week3_Ambiance
+    clip: {fileID: 8300000, guid: 42d68430bc179164192d04f7f2e23137, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    isBGMusic: 1
+    source: {fileID: 0}
+  - name: Week4_Ambiance
+    clip: {fileID: 8300000, guid: 31e58fcd3ccf9fb4ca29681c0fa2b05e, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    isBGMusic: 1
+    source: {fileID: 0}
+  - name: Week5_Ambiance
+    clip: {fileID: 8300000, guid: ad917df998366964cbead520bb4e1746, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    isBGMusic: 1
+    source: {fileID: 0}
+  - name: ChangingText
+    clip: {fileID: 8300000, guid: 73f7ca475b52a644f8048f28b30f38bc, type: 3}
+    volume: 0.5
+    pitch: 0.8
+    loop: 1
+    isBGMusic: 0
+    source: {fileID: 0}
